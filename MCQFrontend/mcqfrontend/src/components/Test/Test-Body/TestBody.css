@@ -1,0 +1,33 @@
+
+.question {
+    
+    background-color: white;
+}
+.question-wrap {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        position: relative;
+}
+.qn{
+    text-align: left;
+}
+.choices{
+    background: #ffffff;
+    border: #0c595e 3px solid;
+    border-radius: 5px;
+    color: #0c590c;
+}
+
+.card {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+    padding: 1rem;
+    position: relative;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 25vw;
+    transform: translate(-50%, -50%);
+  }
+  
